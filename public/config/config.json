@@ -1,0 +1,15 @@
+{
+    "CONTRACT_ADDRESS": "0x1bf52695d63d99216102056c97EC9eB035960422",
+    "SCAN_LINK": "https://etherscan.io/address/0x1bf52695d63d99216102056c97EC9eB035960422",
+    "NETWORK": {
+        "NAME": "Rinkeby",
+        "SYMBOL": "ETH",
+        "ID": 4
+    },
+    "NFT_NAME": "Kilzuki",
+    "SYMBOL": "KILZUKI",
+    "MAX_SUPPLY": "6666",
+    "GAS_LIMIT": 285000,
+    "MARKETPLACE": "Opensea",
+    "MARKETPLACE_LINK": "https://opensea.io"
+}

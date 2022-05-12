@@ -6,7 +6,7 @@ module.exports = {
                 rubik: 'Rubik',
             },
             colors: {
-                primary: '#5C0913',
+                primary: '#BE3748',
             },
         },
     },
