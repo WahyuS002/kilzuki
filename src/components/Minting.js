@@ -179,8 +179,8 @@ export default function Minting() {
 
     return (
         <div>
-            <div className="flex items-center justify-between gap-12">
-                <div className="w-[40%]">
+            <div className="flex flex-col-reverse md:flex-row items-center justify-between md:gap-12">
+                <div className="md:w-[40%] mt-12 md:mt-0">
                     {isWalletConnected() && isContractReady() && !isLoading() ? (
                         <div className="flex justify-center mb-7">
                             <div className="bg-gray-900/30 border border-white rounded-full flex justify-center items-center py-1 px-5 space-x-3">
@@ -282,8 +282,8 @@ export default function Minting() {
                         </div>
                     </div>
                 </div>
-                <div className="w-[50%]">
-                    <img className="border-4 border-gray-900" src={kilzukiImg} alt="" />
+                <div className="md:w-[50%]">
+                    <img className="border-4 border-gray-900" src={kilzukiImg} alt="Kizuki_Image" draggable={false} />
                 </div>
             </div>
         </div>

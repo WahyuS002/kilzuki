@@ -11,7 +11,7 @@ function App() {
             <div className="px-12 py-8">
                 <Navbar />
             </div>
-            <div className="px-48 py-10">
+            <div className="px-6 md:px-48 py-10">
                 <Minting />
             </div>
         </div>
