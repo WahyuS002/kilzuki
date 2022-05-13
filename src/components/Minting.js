@@ -191,7 +191,7 @@ export default function Minting() {
                     ) : null}
                     <div className="text-center">
                         <h2 className="font-semibold text-xl">6666 Kilzuki ready to Kill. 300 Traits created in just 1 day due to stress because the price movement.</h2>
-                        <p className="mt-8 text-sm">666 NFTs are free to mint. And the rest is 0.006 for each NFT. 721A Verified Contract.</p>
+                        <p className="mt-8 text-sm">666 NFTs are free to mint. 721A Verified Contract.</p>
                     </div>
                     <div className="flex justify-center mt-7">
                         <div className="bg-gray-900/60 border border-white inline-block space-x-5 px-5 rounded-full">
