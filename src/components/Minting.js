@@ -3,7 +3,7 @@ import { fetchData } from '../redux/data/dataActions'
 import { toast } from 'react-toastify'
 import { connect } from '../redux/blockchain/blockchainActions'
 
-import kilzukiImg from '../images/kilzuki.jpg'
+import kilzukiImg from '../images/kilzuki.png'
 
 import { useDispatch, useSelector } from 'react-redux'
 
