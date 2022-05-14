@@ -9,7 +9,7 @@
     "NFT_NAME": "Kilzuki",
     "SYMBOL": "KILZUKI",
     "MAX_SUPPLY": "6666",
-    "GAS_LIMIT": 285000,
+    "GAS_LIMIT": 200000,
     "MARKETPLACE": "Opensea",
     "MARKETPLACE_LINK": "https://opensea.io"
 }
