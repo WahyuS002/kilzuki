@@ -230,11 +230,7 @@ export default function Minting() {
                     <div className="flex justify-center mt-8 text-2xl">
                         <span className="mr-4">Total</span>
                         <span>
-                            {isWalletConnected() && isContractReady() && !isLoading() ? (
-                                <>{parseInt(data.cost) === 0 ? 'Free Mint' : web3.utils.fromWei(data.cost, 'ether') * mintAmount + ' ETH'}</>
-                            ) : (
-                                '-'
-                            )}
+                            {isWalletConnected() && isContractReady() && !isLoading() ? <>{data.isFreeMintOpen ? 'Free Mint' : web3.utils.fromWei(data.cost, 'ether') * mintAmount + ' ETH'}</> : '-'}
                         </span>
                     </div>
                     <div className="mt-28">
